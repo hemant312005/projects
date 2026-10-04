@@ -7,7 +7,7 @@
 header {
   display: flex;
   column-gap: 200px;
-  background-color: #FEFEFF;
+  background: linear-gradient(#F1F1FF,#F3F0FF,#F0F2FF,#F2F1FF,#F0F1FF,#DEE5FD,#EFF2FF);
   border: 1px solid black;
   width: 100%;
   height: 68px;
@@ -16,7 +16,7 @@ header {
   left: 0;
   width: 100%;
   height: 68px;
-  /* z-index: 1000; */
+  z-index: 1030px;
   align-items: center;
   padding-left: 60px;
   span {
@@ -69,6 +69,7 @@ header {
 .section1 {
   padding-top: 68px;
   border: 5px solid green;
+  background: linear-gradient(#F1F1FF,#F3F0FF,#F0F2FF,#F2F1FF,#F0F1FF,#DEE5FD,#EFF2FF);
   height: 600px;
   display: flex;
   justify-content: space-between;
@@ -156,7 +157,7 @@ header {
 }
 .section3 {
   border: 2px solid black;
-  height: 600px;
+  height:auto;
   padding-top: 100px;
   padding-left: 70px;
   padding-right: 70px;
@@ -202,8 +203,8 @@ header {
 /* section4 */
 .section4 {
   border: 2px solid rgb(61, 231, 31);
-  height: 647.54px;
-  width: 1223px;
+  height: auto;
+  width:100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -276,9 +277,9 @@ header {
 }
 /* section4 */
 .section5{
-  height: 173.41px;
+  height:auto;
   border:1px solid black;
-  width:1225px;
+  width:100%;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -318,8 +319,8 @@ header {
 .section6
 {
   border:1px solid black;
-  height:625.41px;
-  width:1225px;
+  height:auto;
+  width:100%;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -329,6 +330,7 @@ header {
     width:1140px;
     display:flex;
     flex-direction:column;
+    row-gap:90px;
     justify-content: center;
     .box1{
       border:1px solid black;
@@ -360,7 +362,138 @@ header {
       border:1px solid black;
       height:219.13px;
       width:1140px;
+      display:flex;
+      flex-direction:row;
+      column-gap:45px;
+
+      .b1{
+        .line1{
+          font-size:3rem;
+          color:#2359E8;
+          font-weight:800;
+        }
+        .line2{
+          color: #667085;
+          font-size:2rem;
+          font-weight:700;
+        }
+        .line3{
+          font-size: 1.05rem;
+          color:#667085;
+          max-width: 280px;
+          line-height:1.7;
+          font-weight:20;
+        }
+
+      }
     }
 
+  }
+}
+.section7
+{
+  border:1px solid black;
+  height:auto;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .maindiv{
+    height: 432px;
+    width: 1140px;
+    border:1px solid black;
+    display:flex;
+    flex-direction:column;
+    row-gap:50px;
+    
+    .box1
+    {
+      height:111px;
+      width:1140px;
+      border:1px solid black;
+        #p {
+      display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color:#155EEF;
+    background:#EEF2FF;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+  width:138px;
+    }
+    .top
+    {
+      display:flex;
+      flex-direction:column;
+      row-gap:8px;
+    }
+    .bottom
+    {
+      margin-left:980px;
+      color:#155EEF;
+      font-weight:200;
+      font-size:15px;
+      a:hover{
+        color:#0E3FB0;
+      }
+    }
+    }
+    .box2
+    {
+     height:291px;
+     width:1140px;
+     border: 1px solid black;
+    }
+  }
+}
+.section8{
+  border:1px solid black;
+  height:auto;
+  width:100%;
+  padding-top:210px;
+  .maindiv{
+    border:1px solid black;
+    height:auto;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    row-gap:200px;
+    .box1{
+      display:flex;
+      flex-direction:column;
+      row-gap:12px;
+      align-items: center;
+      p{
+        display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color:#155EEF;
+    background:#EEF2FF;
+    padding: 0.4rem 1rem;
+    }
+    #line1{
+      font-weight:700;
+      letter-spacing:-0.02em;
+      color: #0B1437;
+      font-size: 32px;
+    }
+    }
+    .box2{
+      height:auto;
+      width:100%;
+      display: flex;
+     
+      flex-direction: row;
+       flex-wrap: nowrap;
+      border: 1px solid rgb(255, 18, 18);
+      
   }
 }
